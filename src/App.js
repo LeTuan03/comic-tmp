@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 // import "./App.css";
 // import Home from "./view/pages/Home/Home";
-import Story from "./view/pages/Story/Story";
+// import Story from "./view/pages/Story/Story";
 import Landing from "./view/pages/Landing/Landing";
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
       element: <Landing />,
 
       children: [
-        {
-          path: "/story",
-          element: <Story />,
-        },
+        // {
+        //   path: "/story",
+        //   element: <Story />,
+        // },
         {
           path: "/landing",
           element: <Landing />,
